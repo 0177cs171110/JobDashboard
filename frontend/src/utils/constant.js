@@ -1,4 +1,4 @@
-VITE_USER_API_END_POINT = https://jobdashboard-3.onrender.com/api/v1/user
-VITE_JOB_API_END_POINT = https://jobdashboard-3.onrender.com/api/v1/job
-VITE_APPLICATION_API_END_POINT = https://jobdashboard-3.onrender.com/api/v1/application
-VITE_COMPANY_API_END_POINT = https://jobdashboard-3.onrender.com/api/v1/company
+export const USER_API_END_POINT = import.meta.env.VITE_USER_API_END_POINT;
+export const JOB_API_END_POINT = import.meta.env.VITE_JOB_API_END_POINT;
+export const APPLICATION_API_END_POINT = import.meta.env.VITE_APPLICATION_API_END_POINT;
+export const COMPANY_API_END_POINT = import.meta.env.VITE_COMPANY_API_END_POINT;
